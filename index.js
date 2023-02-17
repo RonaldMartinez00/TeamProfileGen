@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 
 // generated HTML link
-const generateHTML= require('./src/boilerplate.js');
+const generateHTML= require('./src/boilerplate.html');
 
 // team profiles
 const Manager = require('./lib/Manager');
